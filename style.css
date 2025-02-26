@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000 !important;
+    color: #ffffff;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    padding: 40px 20px;
+    background: #111111;
+    border-bottom: 2px solid #ff6600;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 1.2em;
+    color: #bbbbbb;
+}
+
+.image-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+}
+
+section {
+    padding: 30px 20px;
+    border-bottom: 1px solid #333;
+    background: #111111;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #ff6600;
+}
+
+p {
+    font-size: 1.2em;
+    color: #dddddd;
+}
+
+.cta {
+    text-align: center;
+    padding: 40px 20px;
+    background: #111111;
+}
+
+.price {
+    font-size: 1.5em;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #ff4444;
+    margin-right: 10px;
+}
+
+.new-price {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ff6600;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1.3em;
+    transition: transform 0.2s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: #ff4500;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111111;
+    border-top: 2px solid #ff6600;
+}
